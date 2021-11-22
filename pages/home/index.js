@@ -1,9 +1,16 @@
-/* Inicializa jQuery */
-$(document).ready(runApp);
+/**
+ * index.js
+ * 
+ * Created by André Luferat → http://www.luferat.net/
+ * The MIT License (http://www.opensource.org/licenses/mit-license.php)
+ * 
+ * Controller da página 'home'.
+ */
 
-/* Aplicativo principal */
-function runApp() {
+$(document).ready(runHome);
 
-    console.log("Funcionando...");
+function runHome() {
+
+    setTitle();
 
 }
